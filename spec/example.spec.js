@@ -29,5 +29,13 @@ describe('example', () => {
         it('should be defined', () => {
             expect(example.max2).toBeDefined()
         })
+
+        it('should return the maximum of two numbers.', () => {
+            expect(example.max2(0, 1)).toEqual(1)
+            expect(example.max2(1, 0)).toEqual(1)
+            expect(example.max2(-3, -7)).toEqual(-3)
+            expect(example.max2(-5, 3)).toEqual(3)
+            expect(example.max2(6, 12)).toEqual(12)
+        })
     })
 })
