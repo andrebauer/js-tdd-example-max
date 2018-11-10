@@ -11,9 +11,9 @@ describe('example', () => {
         })
     })
 
-    describe('max', () => {
+    describe('max3', () => {
         it('should be defined.', () => {
-            expect(example.max).toBeDefined()
+            expect(example.max3).toBeDefined()
         })
     })
 })
