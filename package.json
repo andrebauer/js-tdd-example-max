@@ -1,7 +1,7 @@
 {
-  "name": "js-jest-skeleton",
+  "name": "js-tdd-example-max",
   "version": "0.1.0",
-  "description": "Skeleton for writing JavaScript-Applications guided by tests with Jest.",
+  "description": "An example for writing a JavaScript-Function guided by tests with Jest.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
