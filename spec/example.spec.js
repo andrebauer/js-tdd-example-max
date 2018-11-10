@@ -24,4 +24,10 @@ describe('example', () => {
             expect(example.max3(0, -1, -2)).toEqual(0)
         })
     })
+
+    describe('max2', () => {
+        it('should be defined', () => {
+            expect(example.max2).toBeDefined()
+        })
+    })
 })
