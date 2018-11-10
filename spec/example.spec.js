@@ -15,5 +15,9 @@ describe('example', () => {
         it('should be defined.', () => {
             expect(example.max3).toBeDefined()
         })
+
+        it('should return the maximum of three numbers.', () => {
+            expect(example.max3(3, 2, 1)).toEqual(3)
+        })
     })
 })
