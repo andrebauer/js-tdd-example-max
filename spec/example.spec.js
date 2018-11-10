@@ -18,6 +18,10 @@ describe('example', () => {
 
         it('should return the maximum of three numbers.', () => {
             expect(example.max3(3, 2, 1)).toEqual(3)
+            expect(example.max3(3, 4, 5)).toEqual(5)
+            expect(example.max3(-3, -1, -5)).toEqual(-1)
+            expect(example.max3(-12, 0, 5)).toEqual(5)
+            expect(example.max3(0, -1, -2)).toEqual(0)
         })
     })
 })
