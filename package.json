@@ -1,0 +1,29 @@
+{
+  "name": "js-jest-skeleton",
+  "version": "0.1.0",
+  "description": "Skeleton for writing JavaScript-Applications guided by tests with Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrebauer/js-jest-skeleton.git"
+  },
+  "keywords": [
+    "jest",
+    "javascript",
+    "test"
+  ],
+  "author": "André Bauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrebauer/js-jest-skeleton/issues"
+  },
+  "homepage": "https://github.com/andrebauer/js-jest-skeleton#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-chain": "^1.0.5",
+    "jest-extended": "^0.11.0"
+  }
+}
