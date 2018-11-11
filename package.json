@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrebauer/js-jest-skeleton.git"
+    "url": "git+https://github.com/andrebauer/js-tdd-example-max.git"
   },
   "keywords": [
     "jest",
@@ -18,9 +18,9 @@
   "author": "André Bauer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrebauer/js-jest-skeleton/issues"
+    "url": "https://github.com/andrebauer/js-tdd-example-max/issues"
   },
-  "homepage": "https://github.com/andrebauer/js-jest-skeleton#readme",
+  "homepage": "https://github.com/andrebauer/js-tdd-example-max#readme",
   "devDependencies": {
     "jest": "^23.6.0",
     "jest-chain": "^1.0.5",
