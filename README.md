@@ -1,7 +1,7 @@
 # JavaScript Jest Example
 
 This is an example for writing a JavaScript function 
-guided by tests with [Jest](https://jestjs.io/).
+guided by tests with [Jest](https://jestjs.io/) and [JSVerify](http://jsverify.github.io/).
 To run the test you'll need [Node.js and npm](https://nodejs.org/en/download/) to be installed.  
 To get started first clone this repository into a project folder of your choice.
 
