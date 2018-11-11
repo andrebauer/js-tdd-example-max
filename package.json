@@ -24,7 +24,8 @@
   "devDependencies": {
     "jest": "^23.6.0",
     "jest-chain": "^1.0.5",
-    "jest-extended": "^0.11.0"
+    "jest-extended": "^0.11.0",
+    "jsverify": "^0.8.4"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "./spec/testSetup.js"

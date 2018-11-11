@@ -1,3 +1,5 @@
+const jsc = require("jsverify");
+
 describe('example', () => {
     const example = require('../lib/example')
 
@@ -36,6 +38,18 @@ describe('example', () => {
             expect(example.max2(-3, -7)).toEqual(-3)
             expect(example.max2(-5, 3)).toEqual(3)
             expect(example.max2(6, 12)).toEqual(12)
+            jsc.assert(
+                jsc.forall(jsc.number, jsc.number, (a, b) => {
+                    return example.max2(a, b) === example.max2(b, a)
+                }));
+            jsc.assert(
+                jsc.forall(jsc.number, a => {
+                    return example.max2(a, a) === a
+                }))
+            jsc.assert(
+                jsc.forall(jsc.number, jsc.nat, (a, b) => {
+                    return example.max2(a + b, a) === a + b
+                }))
         })
     })
 })
